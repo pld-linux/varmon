@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/varmon/%{name}-%{version}.tar.gz
+# Source0-md5:	f4acd94ee59a96c4927732d1bfd71a34
 Patch0:		%{name}-gcc3.patch
 URL:		http://varmon.sourceforge.net/
 BuildRequires:	ncurses-devel
