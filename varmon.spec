@@ -38,4 +38,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README *.pdf
-%attr(754,root,root) %{_sbindir}/varmon
+%attr(755,root,root) %{_sbindir}/varmon
