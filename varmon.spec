@@ -7,7 +7,6 @@ License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/varmon/%{name}-%{version}.tar.gz
 # Source0-md5:	fd251b64ad4976ef8573f0d2a20a02f9
-# Source0-size:	498348
 URL:		http://varmon.sourceforge.net/
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
