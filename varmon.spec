@@ -2,7 +2,7 @@ Summary:	RAID management tool for Mylex DAC960/DAC1164 controllers
 Summary(pl):	Narzêdzie do zarz±dzania macierzami RAID na kontrolerach Mylex DAC960/DAC1164
 Name:		varmon
 Version:	1.0.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/varmon/%{name}-%{version}.tar.gz
