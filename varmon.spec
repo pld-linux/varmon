@@ -30,12 +30,10 @@ kontrolerach Mylex z rodziny DAC960/DAC1164.
 rm -rf $RPM_BUILD_ROOT
 install -D varmon $RPM_BUILD_ROOT%{_sbindir}/varmon
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz *.pdf
+%doc README *.pdf
 %attr(754,root,root) %{_sbindir}/varmon
