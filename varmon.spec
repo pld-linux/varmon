@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/varmon/%{name}-%{version}.tar.gz
+Patch0:		%{name}-gcc3.patch
 URL:		http://varmon.sourceforge.net/
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -22,6 +23,7 @@ kontrolerach Mylex z rodziny DAC960/DAC1164.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__cc} %{rpmcflags} %{rpmldflags} -o varmon varmon.c -Wall -lncurses -I/usr/include/ncurses
