@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	2
 License:	GPL
 Group:		Applications/System
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/varmon/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/varmon/%{name}-%{version}.tar.gz
 Patch0:		%{name}-gcc3.patch
 URL:		http://varmon.sourceforge.net/
 BuildRequires:	ncurses-devel
