@@ -1,5 +1,5 @@
 Summary:	RAID management tool for Mylex DAC960/DAC1164 controllers
-Summary(pl):	Narzêdzie do zarz±dzania macierzami RAID na kontrolerach Mylex DAC960/DAC1164
+Summary(pl.UTF-8):   NarzÄ™dzie do zarzÄ…dzania macierzami RAID na kontrolerach Mylex DAC960/DAC1164
 Name:		varmon
 Version:	1.2.0
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 VARMon is a GNU licensed RAID manipulation / management tool for Mylex
 DAC960/DAC1164 controller family.
 
-%description -l pl
-VARMon to narzêdzie do zarz±dzania i manipulacji macierzami RAID na
+%description -l pl.UTF-8
+VARMon to narzÄ™dzie do zarzÄ…dzania i manipulacji macierzami RAID na
 kontrolerach Mylex z rodziny DAC960/DAC1164.
 
 %prep
